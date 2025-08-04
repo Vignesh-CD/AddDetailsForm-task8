@@ -1,0 +1,61 @@
+
+body{
+    background-color: rgb(178, 235, 216);
+}
+.form-container {
+  max-width: 500px;
+  margin: 170px auto;
+  padding: 25px;
+  background-color: rgb(241, 241, 241);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+
+.product-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-form label {
+  margin-top: 15px;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-form input,
+.product-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 5px;
+}
+
+.product-form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.product-form button {
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+  margin-right: 30px;
+}
+
+.product-form button:hover {
+  background-color: #0056b3;
+}
+.AddForm-btn{
+    margin-left: 180px;
+}
