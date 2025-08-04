@@ -57,10 +57,10 @@ Make sure you have the following installed:
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/addform-viewdetails-app.git
+git clone https://https://github.com/Vignesh-CD/AddDetailsForm-task8
 
 # Navigate into the project folder
-cd addform-viewdetails-app
+cd addform
 
 # Install dependencies
 npm install
